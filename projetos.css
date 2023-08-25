@@ -1,0 +1,231 @@
+/* estilo geral*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    background-color: black;
+    height: 100vh;
+}
+.interface{
+    max-width: 1280px;
+    margin: 0 auto;
+}
+.flex{
+    display: flex;
+}
+
+
+button:hover, form .btn-enviar input[type=submit]:hover{
+    box-shadow: 0px 0px 8px #fff;
+    transform: scale(1.08);
+    transition: 0.3s;
+    
+}
+
+h2.titulo{
+    color: #fff;
+    font-size: 38px;
+    text-align: center;
+}
+h2.titulo span{
+    color: red;
+}
+
+/* estilo cabeçalho */
+
+header{
+    padding: 20px 4%;
+}
+header > .interface{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+header a{
+    color: #7d7d7d;
+    text-decoration: none;
+    display: inline-block;
+    transition: .3s;
+}
+header a:hover{
+    color: #fff;
+    transform: scale(1.08);
+}
+header nav ul{
+    list-style-type: none;
+}
+header nav ul li{
+    display: inline-block;
+    padding: 0 40px;
+    font-size: 20px;
+}
+
+/* Estilo topo do site */
+
+section.topoSite{
+    padding: 40px 4%;
+}
+
+section.topoSite .flex{
+    align-items: center;
+    justify-content: center;
+    gap: 90px;
+}
+
+.topoSite h1{
+    color: #fff;
+    font-size: 42px;
+    line-height: 40px;
+}
+.topoSite .txt-topo-site h1 span{
+    color: red;
+}
+.topoSite .txt-topo-site p {
+    color: #fff;
+    margin: 40px 0;
+}
+
+.topoSite .img-topo-site img{
+    position: relative;
+}
+
+
+
+/* ESTILO INSTITUIÇOES */
+
+section.tecnologias{
+    padding: 40px 4%;
+}
+section.tecnologias .flex{
+    gap: 60px;
+}
+
+.tecnologias .tecnologias-box{
+    color: #fff;
+    padding: 40px;
+    
+    margin-top: 50px;
+    border-radius: 30px;
+    transition: 0.3s;
+
+}
+.tecnologias .tecnologias-box:hover{
+    transform: scale(1.08);
+    box-shadow: 0 0 20px red;
+}
+.tecnologias .tecnologias-box i {
+    font-size: 65px;
+    color: red;
+    
+}
+.tecnologias .tecnologias-box h3{
+    font-size: 30px;
+    margin: 15px 0;
+}
+
+
+/* ESTILO FORMULARIO */
+
+section.formulario{
+    padding: 80px 4%;
+
+}
+form{
+    max-width: 500px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 40px;
+}
+form input {
+    width: 100%;
+    background-color: rgba(48, 47, 47, 0.623);
+    border: 0;
+    outline: 0;
+    padding: 20px 15px;
+    border-radius: 20px;
+    color: #fff;
+    font-size: 18px;
+}
+form textarea{
+    resize: none;
+    height: 200px;
+    width: 100%;
+    background-color: rgba(48, 47, 47, 0.623);
+    border: 0;
+    outline: 0;
+    padding: 20px 15px;
+    border-radius: 20px;
+    color: #fff;
+    font-size: 18px;
+    
+}
+form textarea::placeholder{
+    color: red;
+}
+
+form input::placeholder{
+    color: red;
+}
+
+
+form .btn-enviar{
+    margin-top: 20px;
+    text-align: center;
+    
+}
+
+form .btn-enviar input[type=submit]{
+    width: 120px;
+    background-color: red;
+    color: black;
+    font-weight: 700;
+    cursor: pointer;
+    transition: .3s;
+
+}
+/* ESTILO RODAPÉ */
+
+footer{
+    padding: 40px 4%;
+    box-shadow: 0 0 40px 10px red;
+}
+
+footer .flex{
+    justify-content: space-between;
+}
+
+footer .line-footer{
+    padding: 20px 0;
+
+}
+
+.borda{
+    border-top: 2px solid red;
+}
+footer .line-footer p img{
+    margin-right: 5px;
+    margin-top: 10px;
+    color: red;
+    font-size: 22px;
+}
+footer .line-footer p a{
+    color: #fff;
+}
+
+.btn-social button{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    border:none;
+    background-color: red;
+    font-size: 25px;
+    cursor: pointer;
+    margin: 0 5px;
+    
+}

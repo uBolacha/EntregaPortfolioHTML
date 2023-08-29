@@ -116,11 +116,7 @@ section.tecnologias .flex{
     transform: scale(1.08);
     box-shadow: 0 0 20px blue;
 }
-.tecnologias .tecnologias-box i {
-    font-size: 65px;
-    color: blue;
-    
-}
+
 .tecnologias .tecnologias-box h3{
     font-size: 30px;
     margin: 15px 0;

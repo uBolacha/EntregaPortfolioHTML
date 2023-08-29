@@ -34,15 +34,26 @@ h2.titulo span{
     color: blue;
 }
 
+
+.btn-social button{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    border:none;
+    background-color: blue;
+    font-size: 25px;
+    cursor: pointer;
+    margin: 0 5px;
+    
+}
+
 /* estilo cabeçalho */
 
 header{
     padding: 20px 4%;
 }
-header > .interface{
+header  .interface{
     display: flex;
-    align-items: center;
-    justify-content: space-between;
 }
 header a{
     color: #7d7d7d;
@@ -91,17 +102,6 @@ section.sobre .flex{
     margin: 20px 0;
     text-align: justify;
 }
-.btn-social button{
-    width: 60px;
-    height: 60px;
-    border-radius: 50%;
-    border:none;
-    background-color: blue;
-    font-size: 25px;
-    cursor: pointer;
-    margin: 0 5px;
-    
-}
 
 /* ESTILO INSTITUIÇOES */
 
@@ -115,7 +115,6 @@ section.instituicoes .flex{
 .instituicoes .instituicoes-box{
     color: #fff;
     padding: 40px;
-    
     margin-top: 50px;
     border-radius: 30px;
     transition: 0.3s;
@@ -125,11 +124,7 @@ section.instituicoes .flex{
     transform: scale(1.08);
     box-shadow: 0 0 20px blue;
 }
-.instituicoes .instituicoes-box i {
-    font-size: 65px;
-    color: blue;
-    
-}
+
 .instituicoes .instituicoes-box h3{
     font-size: 30px;
     margin: 15px 0;
@@ -147,7 +142,6 @@ section.especialidades .flex{
 .especialidades .especialidades-box{
     color: #fff;
     padding: 40px;
-    
     margin-top: 50px;
     border-radius: 30px;
     transition: 0.3s;
@@ -157,11 +151,7 @@ section.especialidades .flex{
     transform: scale(1.08);
     box-shadow: 0 0 20px blue;
 }
-.especialidades .especialidades-box i {
-    font-size: 65px;
-    color: blue;
-    
-}
+
 .especialidades .especialidades-box h3{
     font-size: 30px;
     margin: 15px 0;

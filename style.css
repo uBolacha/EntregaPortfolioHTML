@@ -31,7 +31,7 @@ h2.titulo{
     text-align: center;
 }
 h2.titulo span{
-    color: red;
+    color: blue;
 }
 
 /* estilo cabeçalho */
@@ -84,7 +84,7 @@ section.sobre .flex{
 
 }
 .sobre .txt-sobre h2 span{
-    color: red;
+    color: blue;
     display: block;
 }
 .sobre .txt-sobre p{
@@ -96,7 +96,7 @@ section.sobre .flex{
     height: 60px;
     border-radius: 50%;
     border:none;
-    background-color: red;
+    background-color: blue;
     font-size: 25px;
     cursor: pointer;
     margin: 0 5px;
@@ -123,11 +123,11 @@ section.instituicoes .flex{
 }
 .instituicoes .instituicoes-box:hover{
     transform: scale(1.08);
-    box-shadow: 0 0 20px red;
+    box-shadow: 0 0 20px blue;
 }
 .instituicoes .instituicoes-box i {
     font-size: 65px;
-    color: red;
+    color: blue;
     
 }
 .instituicoes .instituicoes-box h3{
@@ -155,11 +155,11 @@ section.especialidades .flex{
 }
 .especialidades .especialidades-box:hover{
     transform: scale(1.08);
-    box-shadow: 0 0 20px red;
+    box-shadow: 0 0 20px blue;
 }
 .especialidades .especialidades-box i {
     font-size: 65px;
-    color: red;
+    color: blue;
     
 }
 .especialidades .especialidades-box h3{
@@ -171,7 +171,7 @@ section.especialidades .flex{
 
 section.portfolio{
     padding: 80px 4%;
-    box-shadow: 0 0 40px 10px red;
+    box-shadow: 0 0 40px 10px blue;
 }
 
 section.portfolio .flex{
@@ -182,7 +182,7 @@ section.portfolio .flex{
 .img-port{
     width: 360px;
     height: 460px;
-    background-color: red;
+    background-color: blue;
     background-size: cover;
     background-position: 0% 100%;
     transition: 5s;
@@ -190,30 +190,7 @@ section.portfolio .flex{
     border-radius: 40px;
     position: relative;
 }
-.img-port:hover{
-    background-position: 100% 100%;
-}
 
-.overlay{
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-color: #000000b6;
-    border-radius: 40px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-size: 24px;
-    font-weight: 600;
-    color: #fff;
-    opacity: 0;
-    transition: .5s;
-}
-.overlay:hover{
-    opacity: 1;
-}
 
 /* ESTILO FORMULARIO */
 
@@ -254,11 +231,11 @@ form textarea{
     
 }
 form textarea::placeholder{
-    color: red;
+    color: blue;
 }
 
 form input::placeholder{
-    color: red;
+    color: blue;
 }
 
 
@@ -270,7 +247,7 @@ form .btn-enviar{
 
 form .btn-enviar input[type=submit]{
     width: 120px;
-    background-color: red;
+    background-color: blue;
     color: black;
     font-weight: 700;
     cursor: pointer;
@@ -281,7 +258,7 @@ form .btn-enviar input[type=submit]{
 
 footer{
     padding: 40px 4%;
-    box-shadow: 0 0 40px 10px red;
+    box-shadow: 0 0 40px 10px blue;
 }
 
 footer .flex{
@@ -294,12 +271,12 @@ footer .line-footer{
 }
 
 .borda{
-    border-top: 2px solid red;
+    border-top: 2px solid blue;
 }
 footer .line-footer p img{
     margin-right: 5px;
     margin-top: 10px;
-    color: red;
+    color: blue;
     font-size: 22px;
 }
 footer .line-footer p a{

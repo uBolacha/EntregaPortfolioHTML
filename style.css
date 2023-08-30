@@ -31,7 +31,7 @@ h2.titulo{
     text-align: center;
 }
 h2.titulo span{
-    color: blue;
+    color: red;
 }
 
 
@@ -40,7 +40,7 @@ h2.titulo span{
     height: 60px;
     border-radius: 50%;
     border:none;
-    background-color: blue;
+    background-color: red;
     font-size: 25px;
     cursor: pointer;
     margin: 0 5px;
@@ -95,7 +95,7 @@ section.sobre .flex{
 
 }
 .sobre .txt-sobre h2 span{
-    color: blue;
+    color: red;
     display: block;
 }
 .sobre .txt-sobre p{
@@ -122,7 +122,7 @@ section.instituicoes .flex{
 }
 .instituicoes .instituicoes-box:hover{
     transform: scale(1.08);
-    box-shadow: 0 0 20px blue;
+    box-shadow: 0 0 20px red;
 }
 
 .instituicoes .instituicoes-box h3{
@@ -149,7 +149,7 @@ section.especialidades .flex{
 }
 .especialidades .especialidades-box:hover{
     transform: scale(1.08);
-    box-shadow: 0 0 20px blue;
+    box-shadow: 0 0 20px red;
 }
 
 .especialidades .especialidades-box h3{
@@ -161,7 +161,7 @@ section.especialidades .flex{
 
 section.portfolio{
     padding: 80px 4%;
-    box-shadow: 0 0 40px 10px blue;
+    box-shadow: 0 0 40px 10px red;
 }
 
 section.portfolio .flex{
@@ -172,7 +172,7 @@ section.portfolio .flex{
 .img-port{
     width: 360px;
     height: 460px;
-    background-color: blue;
+    background-color: red;
     background-size: cover;
     background-position: 0% 100%;
     transition: 5s;
@@ -221,11 +221,11 @@ form textarea{
     
 }
 form textarea::placeholder{
-    color: blue;
+    color: red;
 }
 
 form input::placeholder{
-    color: blue;
+    color: red;
 }
 
 
@@ -237,7 +237,7 @@ form .btn-enviar{
 
 form .btn-enviar input[type=submit]{
     width: 120px;
-    background-color: blue;
+    background-color: red;
     color: black;
     font-weight: 700;
     cursor: pointer;
@@ -248,7 +248,7 @@ form .btn-enviar input[type=submit]{
 
 footer{
     padding: 40px 4%;
-    box-shadow: 0 0 40px 10px blue;
+    box-shadow: 0 0 40px 10px red;
 }
 
 footer .flex{
@@ -261,12 +261,12 @@ footer .line-footer{
 }
 
 .borda{
-    border-top: 2px solid blue;
+    border-top: 2px solid red;
 }
 footer .line-footer p img{
     margin-right: 5px;
     margin-top: 10px;
-    color: blue;
+    color: red;
     font-size: 22px;
 }
 footer .line-footer p a{
